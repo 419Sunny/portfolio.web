@@ -1,0 +1,44 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    background-image: url('images/cool.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.card{
+    transition: 0.5s;
+}
+.card:hover{
+    transform: translateY(-20px);
+    box-shadow: 0px 40px 60px rgba(0, 0, 0, 0.14);
+}
+h2,h3,h4,h5,h6,p{
+    font-weight: bold;
+}
+.border-custom {
+    border: 1px solid #444;
+    transition: all 0.5s ease-in-out;
+}
+
+.border-custom:hover{
+    border-color: #3982ef;
+}
+#contact .form-control {
+    background: transparent;
+    border: 1px solid #555;
+    border-radius: 0px;
+    padding: 10px;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
